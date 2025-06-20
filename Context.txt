@@ -1,0 +1,24 @@
+Topic
+1. Requirement Gathering/ Data Collection
+2.Data Transformation/Data Computations
+3.Power Bi Reports/UI
+4.Dashboard/Publishing
+
+1.Data Gathering / Requirement:
+Assemble a sales reports with different visuals to best show the Sales Insights in one page Dashboard.
+1.	Sales (folder by year)
+2.	Categories (Excel)
+3.	Geography (Excel)
+4.	Product (CSV / Database)
+5.	SalesRep (Excel)
+6.	SubCategories (Excel)
+
+
+step1 Requirement gathering
+I. which data files are in excel format we load it into our model
+II. Some data sources are in the data base, we just need to connect them to our model, which require server name, data base name, user name and password. After all these we can connect the database server into our data model.
+III. One of the folder contains 4 csv files, so that we can get the data by a entire folder, and lastly we combine and load.
+step2 2.Data Transformation/Data Computations
+I. I cleaned the data for each table link removing blanks, duplicates, replacing value, split columns.
+II. Created a date master which will help me for further analysis like, date-calendar, with years, month, quarter, week, week day, week day name etc.
+III. As per the requirement we created multiple columns as per the requirement. I leaned a new thing that If the calculated columns are not present in a single table, then we can use related to perform our calculations.
